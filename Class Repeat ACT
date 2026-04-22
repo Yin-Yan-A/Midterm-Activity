@@ -1,0 +1,10 @@
+class Repeater:                                                         
+    def repeat(self):                                                   
+        word = input("Enter a Word: ")                                  
+        number = int(input("How many time you want it to repeat? "))    
+        for i in range(number):                                         
+            print(word)                                                 
+
+
+rep = Repeater()
+rep.repeat()
